@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right, rgba(0,0,0,0.7),rgba(0,0,0,0.9),rgba(0,0,0,0.9), rgba(0,0,0,0.9),rgba(0,0,0,0.7));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+span{
+    font-size: 3rem;
+    font-weight: 600;
+    color: white;
+}
+
+button{    
+    height: 50px;
+    width: 125px;
+    color: white;
+    background-color: cadetblue;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+
+}
